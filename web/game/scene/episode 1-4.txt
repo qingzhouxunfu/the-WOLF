@@ -1,0 +1,27 @@
+changeFigure:主角立绘（通常）.png -next;
+{name}:（那边的公告板上好像有什么新内容，去看看吧） -fontSize=default -center;
+setTextbox:on;
+changeFigure:;
+changeBg:公告板.jpg -next -unlockname=CG1;
+公告板:近日我校有多名学生被疑似狼的生物咬伤。请同学们在上学放学路上结伴而行，注意安全。 -レーダー02.mp3 -fontSize=default;
+unlockCg:公告板.jpg;
+changeBg:校门口 晚上.jpg -next;
+changeFigure:主角立绘（担忧）.png -next;
+{name}:（狼？这里生态什么时候这么好了？算了，先不管这些了，宁可信其有不可信其无，总之还是小心一点好了） -疑惑03.mp3 -fontSize=default -center;
+changeFigure:主角立绘（通常）.png -next;
+{name}:（哎？角落里贴了个什么？好像是张便利贴，去看看上面写了什么吧） -ひらめき・発見02.mp3 -fontSize=default -center;
+changeFigure: -next;
+changeBg:公告板.jpg -next;
+ :便利贴上的字写得七扭八歪，读起来很吃力。 -fontSize=default;
+便利贴:崔家庄市第一中学八大怪谈其九——狼的试炼。 -meka_mi_radar05.mp3 -fontSize=default;
+任何不敢面对自己内心真实想法的人都会被来自阴曹地府的狼盯上。地府的狼会给被选中的人一个试炼。 -fontSize=default;
+通过试炼者会获得狼看守的宝物，失败者会被狼拖入地府，永世不得超生。 -fontSize=default;
+changeBg:校门口 晚上.jpg -next;
+changeFigure:主角立绘（担忧）.png -next;
+{name}:（唔……这什么乱七八糟的？还八大怪谈其九……应该是哪个学生的恶作剧吧。 -疑惑03.mp3 -fontSize=default -center;
+changeFigure:主角立绘（害怕）.png -next;
+（狼的试炼……虽然不觉这么超自然的、像规则类怪谈一样的东西会跟我有什么关系，但还是多少感受到了些许的恶意。赶紧回家吧） -ガーン01.mp3 -fontSize=default -center;
+changeFigure: -next;
+changeBg: -next;
+bgm:none -enter=3000;
+changeScene:episode 2-1.txt

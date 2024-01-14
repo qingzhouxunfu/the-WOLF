@@ -1,0 +1,8 @@
+Game_name:狼the Wolf;
+Game_key:27cbdae0f6689c4;
+Title_img:start.png;
+Title_bgm:hietasoup.mp3;
+Textbox_theme:standard;
+Package_name:;
+Description:;
+Game_Logo:logo.png;

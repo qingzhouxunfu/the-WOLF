@@ -1,0 +1,17 @@
+intro:|This work contains mild horror elements. -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 0, 0, 1) -animation=fadeIn -delayTime=1500;
+bgm:yami.mp3 -volume=100;
+unlockBgm:yami.mp3;
+intro:The wrecked hulk aground sees a thousand sails pass -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:Ahead of ailing tree spring woods grow thick and fast. -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:I listen to the song you sing to me today, -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:And your wine has temporarily lightened my heart. -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:——A Seven-character Poem By Liu Yuxi -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:Life is like a journey, I too am on my way.|No matter how fearful and desperate you are, |please believe in your own heart and move forward unswervingly—— -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+getUserInput:name -title=Please enter name -buttonText=confirm;
+intro:{name}, welcome to Cuijiazhuang. |Welcome to this world full of wonders.  -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:This is a journey of the inner self.  -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:Can you endure trials, explore the secrets deep within, |and ultimately find true courage and growth?  -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:Begin your adventure. -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:初始数值.jpg;
+bgm:none -enter=3000;
+changeScene:en_二周目.txt

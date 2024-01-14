@@ -1,0 +1,16 @@
+ :回家的路上 -fontSize=default;
+bgm:tamco04.mp3 -volume=100;
+unlockBgm:tamco04.mp3;
+changeBg:回家的路 通常.jpg -next;
+playEffect:足音・スポーツシューズ.mp3;
+changeFigure:主角立绘（担忧）.png -next;
+{name}:（再穿过这个胡同就到家了，感觉今天胡同内似乎比之前要暗一点？也许是因为月亮刚刚升起吧？） -レーダー02.mp3 -fontSize=default -center;
+changeFigure:主角立绘（害怕）.png -next;
+（两年前这里好像发生过凶杀案来着，不会有什么东西躲在角落里安排我一下吧？) -ガーン01.mp3 -fontSize=default -center;
+…… -fontSize=default -center;
+changeFigure:主角立绘（大哭）.png -next;
+（啊啊啊我在想什么？！不要再自己吓唬自己了！） -Onoma-Impact07-1(Dry).mp3 -fontSize=default;
+changeFigure:主角立绘（害怕）.png -next;
+（算了，还是进去吧。左拐之后顺着左边一直走就能到出口了。话说这个胡同又窄又黑还容易拐进死胡同里，要不是因为走大路要绕很远鬼才走这里） -Onoma-Negative02-1(Short).mp3 -fontSize=default -center;
+bgm:none -enter=1000;
+choose:进入胡同:episode 2-2.txt;

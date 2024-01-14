@@ -1,0 +1,13 @@
+bgm: -enter=0;
+changeBg: -next;
+changeFigure: -left -next;
+changeFigure: -next;
+changeFigure: -right;
+bgm:tamco04.mp3;
+changeBg:cg7.jpg;
+{name}:哎？|我怎么躺这儿了？ -fontSize=default;
+咦？我手怎么破了？ -fontSize=default;
+不管了，先回家再说吧。 -fontSize=default;
+changeBg:none;
+intro:看起来你与狼的宝藏失之交臂了呢，|要重新开始吗？ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+choose:是:episode 1-1.txt|否:ED.txt;

@@ -1,0 +1,21 @@
+changeFigure:主角立绘（通常）.png;
+bgm: -enter=0;
+changeFigure:主角立绘（担忧）.png;
+changeFigure:主角立绘（EMO）.png;
+changeFigure:主角立绘（害怕）.png;
+changeFigure:主角立绘（生气）.png;
+changeFigure:主角立绘（生气）.png -next;
+{name}:NO! -fontSize=default;
+Student A:Ah? -ガーン01.mp3 -fontSize=default;
+{name}:I said NO! -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+Why do you keep asking me for food every day? -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+If you want to eat, go buy it yourself! -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+You've asked me so many times, and you don't even say thank you. -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+Don't ask me again! -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+changeFigure:;
+playEffect:hito_ge_run_sposhu01.mp3;
+Student A:I'm sorry! -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+I won't do it again! |Hey, don't run away! Listen to me, please! -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+playEffect:hito_ge_run_sposhu01.mp3;
+changeBg:none;
+changeScene:en_ED.txt

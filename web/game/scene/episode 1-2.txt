@@ -1,0 +1,4 @@
+{name}:…… -fontSize=default -center;
+同学:？|怎么不说话？ -疑惑03.mp3 -fontSize=default;
+你是不是不想给啊？切~真小气。 -Onoma-Negative02-1(Short).mp3 -fontSize=default;
+changeScene:episode 1-3.txt

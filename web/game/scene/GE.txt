@@ -1,0 +1,21 @@
+changeFigure:主角立绘（通常）.png;
+bgm: -enter=0;
+changeFigure:主角立绘（担忧）.png;
+changeFigure:主角立绘（EMO）.png;
+changeFigure:主角立绘（害怕）.png;
+changeFigure:主角立绘（生气）.png;
+changeFigure:主角立绘（生气）.png -next;
+{name}:我才不要。 -fontSize=default;
+同学:啊？ -ガーン01.mp3 -fontSize=default;
+{name}:我说我才不要！ -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+你怎么天天找我要吃的啊？ -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+你想吃可以自己去买啊！ -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+找我要了那么多次吃的，然后连句谢谢都不会说。 -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+以后别找我要！饿死你算了！ -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+changeFigure:;
+playEffect:hito_ge_run_sposhu01.mp3;
+同学:对，对不起！ -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+我以后再也不这样了！|喂！别跑啊！听我说！ -Motion-Slam04-1(Dry).mp3 -fontSize=default;
+playEffect:hito_ge_run_sposhu01.mp3;
+changeBg:none;
+changeScene:ED.txt

@@ -1,0 +1,17 @@
+bgm: -enter=0;
+changeBg: -next;
+changeFigure: -next;
+changeFigure: -left -next;
+changeFigure: -right;
+{name}:别，别过来！|不要过来啊！！！！！ -fontSize=default;
+playEffect:aaaa.wav;
+intro:第二天 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+bgm:tamco08-s.mp3;
+ :崔家庄第一中学 -City_Ambi-Street01-1.mp3 -fontSize=default;
+changeBg:校门口.jpg;
+changeBg:公告板.jpg;
+公告板:近日我校有多名学生被疑似狼的生物咬伤。请同学们在上学放学路上结伴而行，注意安全。 -レーダー02.mp3 -fontSize=default;
+bgm: -enter=1000;
+intro:Game Over -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 0, 0, 1) -animation=fadeIn -delayTime=1500;
+intro:看起来你与狼的宝藏失之交臂了呢，|要重新开始吗？ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+choose:是:episode 1-1.txt|否:ED.txt;

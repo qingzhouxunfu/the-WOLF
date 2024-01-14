@@ -1,0 +1,16 @@
+changeBg:none;
+:Cuijiazhuang City No. 1 High School|Class F, Grade 12 -chime1s.mp3 -fontSize=default;
+bgm:tamco08-s.mp3 -volume=100;
+unlockBgm:tamco08-s.mp3;
+changeBg:教室 白天.jpg -next;
+changeFigure:主角立绘（通常）.png;
+{name}:Another ordinary day. Hopefully, nothing unexpected happens. -fontSize=default -center;
+???:Hey, you. -meka_mi_radar05.mp3 -fontSize=default;
+changeFigure:主角立绘（生气）.png -next;
+{name}:…… -プンプン怒る.mp3 -fontSize=default;
+changeFigure:主角立绘（EMO）.png -next;
+{name}:(Here we go again.) -Onoma-Negative02-1(Short).mp3 -fontSize=default -center;
+changeFigure:主角立绘（通常）.png -next;
+{name}:Is there something you need? -fontSize=default -center;
+Student A:Do you have any food? Can you share some with me? I'm hungry. -fontSize=default;
+choose:Remain silent:en_episode 1-2.txt|Give them some food:en_episode 1-3.txt|Refuse to give:en_GE.txt;

@@ -1,0 +1,4 @@
+changeBg:给一份零食.jpg -next;
+changeFigure: -left -next;
+changeFigure: -right;
+changeScene:en_episode 2-5.txt

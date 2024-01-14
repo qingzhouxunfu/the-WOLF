@@ -1,0 +1,4 @@
+changeBg:全给.jpg -next;
+changeFigure: -right -next;
+changeFigure: -left;
+changeScene:en_episode 2-5.txt

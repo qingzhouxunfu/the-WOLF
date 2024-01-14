@@ -1,0 +1,13 @@
+bgm: -enter=0;
+changeBg: -next;
+changeFigure: -left -next;
+changeFigure: -next;
+changeFigure: -right;
+bgm:tamco04.mp3;
+changeBg:cg7.jpg;
+{name}:Huh? |How did I end up lying here?  -fontSize=default;
+Why is my hand bleeding? -fontSize=default;
+ Never mind, I'll deal with it later. Let's just head home for now. -fontSize=default;
+changeBg:none;
+intro:It seems you missed out on the wolf's treasure. |Would you like to start again? -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+choose:Yes:en_episode 1-1.txt|No:en_ED.txt;

@@ -1,0 +1,12 @@
+; 初始场景，以及特效演示
+choose:中文:start 1.txt|English:en_start.txt;
+intro:|本作含有轻微恐怖要素 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 0, 0, 1) -animation=fadeIn -delayTime=1500;
+bgm:yami.mp3 -volume=100;
+unlockBgm:yami.mp3;
+intro:沉舟侧畔千帆过，|病树前头万木春。|今日听君歌一曲，|暂凭杯酒长精神。||——唐·刘禹锡《酬乐天扬州初逢席上见赠》||人生如逆旅，我亦是行人。|无论有多么恐惧与绝望，也请相信自己的本心，毫不动摇地继续前进吧—— -fontSize=small -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+getUserInput:name -title=如何称呼你？ -buttonText=确认;
+intro:{name}，欢迎来到崔家庄。|欢迎来到这个充满异闻的世界。|这是一次内心的旅程。|你是否能够经历试炼，探索内心深处的秘密，最终找到真正的勇气和成长？|开始你的冒险吧。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+intro:玩家初始数值：||零食：5|精力：5 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 0, 0, 1) -animation=fadeIn -delayTime=1500;
+intro:精力不可为零。|请你时刻留意自己的精力 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 0, 0, 1) -animation=fadeIn -delayTime=1500;
+bgm:none -enter=3000;
+changeScene:episode 1-1.txt

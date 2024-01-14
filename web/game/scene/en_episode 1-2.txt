@@ -1,0 +1,4 @@
+{name}:…… -fontSize=default -center;
+Student A:?|Why don't you speak?  -疑惑03.mp3 -fontSize=default;
+Don’t you want to give it? Tsk~ So stingy. -Onoma-Negative02-1(Short).mp3 -fontSize=default;
+changeScene:en_episode 1-3.txt

@@ -1,0 +1,15 @@
+changeBg:none;
+:崔家庄第一中学|三年六班 -chime1s.mp3 -fontSize=default;
+bgm:tamco08-s.mp3 -volume=100;
+changeBg:教室 白天.jpg -next;
+changeFigure:主角立绘（通常）.png;
+{name}:（今天又是平平淡淡的一天，希望不会出什么幺蛾子） -fontSize=default -center;
+？？？:喂，你。 -meka_mi_radar05.mp3 -fontSize=default;
+changeFigure:主角立绘（生气）.png -next;
+{name}:…… -プンプン怒る.mp3 -fontSize=default;
+changeFigure:主角立绘（EMO）.png -next;
+{name}:（完了，又来了） -Onoma-Negative02-1(Short).mp3 -fontSize=default -center;
+changeFigure:主角立绘（通常）.png -next;
+{name}:是你啊，有什么事吗？ -fontSize=default -center;
+同学:你有吃的吗？给点呗，饿了。 -fontSize=default;
+choose:沉默:episode 1-2.txt|给他:episode 1-3.txt|不给:GE.txt;

@@ -1,0 +1,18 @@
+bgm: -enter=0;
+changeBg: -next;
+changeFigure: -next;
+changeFigure: -left -next;
+changeFigure: -right;
+{name}:Don't, don't come closer!!!|Please stay away!!! -fontSize=default;
+playEffect:aaaa.wav;
+intro:the Next Day -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+bgm:tamco08-s.mp3;
+ :Cuijiazhuang City No. 1 High School -City_Ambi-Street01-1.mp3 -fontSize=default;
+changeBg:校门口.jpg;
+changeBg:公告板.jpg;
+Notice Board:Several students in our school were allegedly bitten by a wolf-like creature recently.  -レーダー02.mp3 -fontSize=default;
+Students are advised to travel to and from school in groups, for safety. -fontSize=default;
+bgm: -enter=1000;
+intro:Game Over -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 0, 0, 1) -animation=fadeIn -delayTime=1500;
+intro:It seems you missed out on the wolf's treasure. |Would you like to start again? -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+choose:Yes:en_episode 1-1.txt|No:en_ED.txt;

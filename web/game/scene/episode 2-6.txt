@@ -1,0 +1,17 @@
+changeFigure:主角立绘（害怕）.png -right -next;
+{name}:（还是再转转吧，也许有隐藏的出口？） -疑惑03.mp3 -fontSize=default -right;
+ :你试探性地走了两步，这次狼没有跟上来。 -5ashi_1.wav -fontSize=default;
+changeBg: -next;
+changeFigure: -left -next;
+changeFigure: -right;
+changeBg:回家的路 变天.jpg -next;
+changeFigure:主角立绘（担忧）.png -right;
+changeFigure:狼.png -left;
+bgm: -enter=0;
+ :你再次回到了胡同入口。 -レーダー02.mp3 -fontSize=default;
+intro:精力-1 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 0, 0, 1) -animation=fadeIn -delayTime=1500;
+changeFigure:主角立绘（大哭）.png -right -next;
+{name}:（这算什么？是因为很清楚我无法逃离所以才这么镇定地在原地呆着吗？） -Onoma-Impact07-1(Dry).mp3 -fontSize=default -right;
+changeFigure:主角立绘（害怕）.png -right -next;
+（要不要再找找出口？） -疑惑03.mp3 -fontSize=default -right;
+choose:留在原地:episode 3-1.txt|去其他地方找找:BE.txt;
